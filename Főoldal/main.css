@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v23_11 {
+  width: 100%;
+  height: 1710px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
+.v47_59 {
+  width: 814px;
+  color: rgba(124,223,255,0.7099999785423279);
+  position: absolute;
+  top: 140px;
+  left: 136px;
+  font-family: Modak;
+  font-weight: Regular;
+  font-size: 49px;
+  opacity: 1;
+  text-align: center;
+}
+.v62_63 {
+  width: 630px;
+  height: 510px;
+  background: url("../images/v62_63.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 817px;
+  left: 228px;
+  border: 5px solid linear-gradient(rgba(138,163,255,1), rgba(0,0,0,0));
+  border-top-left-radius: 53px;
+  border-top-right-radius: 53px;
+  border-bottom-left-radius: 53px;
+  border-bottom-right-radius: 53px;
+  overflow: hidden;
+}
+.v91_37 {
+  width: 100%;
+  height: 267px;
+  background: url("../images/v91_37.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1443px;
+  left: 0px;
+  overflow: hidden;
+}
+.v91_38 {
+  width: 100%;
+  height: 267px;
+  background: linear-gradient(rgba(71,188,181,0), rgba(71,188,181,1));
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v91_39 {
+  width: 153px;
+  height: 156px;
+  background: url("../images/v91_39.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 55px;
+  left: 443px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.v91_40 {
+  width: 157px;
+  height: 156px;
+  background: url("../images/v91_40.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 55px;
+  left: 678px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.v91_41 {
+  width: 157px;
+  height: 156px;
+  background: url("../images/v91_41.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 55px;
+  left: 204px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
