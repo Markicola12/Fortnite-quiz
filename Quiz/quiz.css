@@ -41,11 +41,13 @@ a, a:visited, a:active, a:hover{
 }
 
 #fejlec_masodik_elem{
+    padding-top: 10px;
     position: fixed;
     padding-right: 10vw;
 }
 
 #fejlec_harmadik_elem{
+    padding-top: 10px;
     position: fixed;
     padding-left: 20vw;
 }
