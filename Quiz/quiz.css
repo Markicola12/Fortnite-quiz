@@ -64,7 +64,6 @@ a, a:visited, a:active, a:hover{
 
 .valaszto_felulet{
     padding-top: 100px;
-    width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -73,6 +72,7 @@ a, a:visited, a:active, a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .circles > div{
