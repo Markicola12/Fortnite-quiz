@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 body{
     padding: 0;
@@ -198,4 +199,34 @@ a, a:visited, a:active, a:hover{
 
 .nagyon_igaz.kivalasztva{
     background-color: white;
+}
+
+.kerdes{
+    text-align: center;
+    font-family: "Lora", serif;
+    letter-spacing: 3px;
+}
+
+.scale{
+    display: inline-block;
+    width: calc(9vw + 9vh);
+    height: calc(6vw + 6vh);
+    border-radius: 10%;
+    background-color: #F3E8CA;
+    margin-top: calc(3vw + 2vh);
+}
+
+#nem_igaz{
+    margin-left: 10vw;
+}
+
+#igaz{
+    margin-left: 58vw;
+}
+
+.valasztas_szoveg{
+    font-variant: small-caps;
+    text-align: center;
+    font-size: x-large;
+    margin-top: calc(2vw + 2vh);
 }
