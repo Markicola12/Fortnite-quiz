@@ -32,7 +32,7 @@ body {
    height: 132px;
     left: 0px;
      top: 0px;
-      position: absolute;
+      position: relative;
       background: linear-gradient(180deg, #47BCB5 0%, rgba(71, 188, 181, 0) 100%);
     }
       #text1{
