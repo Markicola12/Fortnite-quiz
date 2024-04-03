@@ -84,20 +84,3 @@ body{
 #nagyk{
      width:1365px;
 }
-#szov1{
-     left: 100vh;
-     top: 20vh;
-
-}
-#szov2{
-     left: 0px;
-     top: 0px;
-}
-.Lila,img{
-     display: flex;
-     gap: 10px 20px;
-     width: 60%;
-     float:left;
-     
-     vertical-align: middle;
-}
