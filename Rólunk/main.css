@@ -68,3 +68,12 @@ body {
   5px #8AA4FF solid
  
   }
+footer{
+  width: 100%;
+  height: calc(4vh+4vw);
+}
+
+.lablec{
+  height: 4vh !important; 
+  width: 4vw !important;
+}
