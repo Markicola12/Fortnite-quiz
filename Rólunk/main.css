@@ -56,11 +56,16 @@ body {
            top: 45px;
    }
   #szoveg{
-    width: 1135px; height: 838.20px; text-align: center; color:
-       rgba(124.31, 223.63, 255, 0.76)
-       ; font-size: 64px; font-family:
-        Modak; font-weight:
-        400; word-wrap: break-word"
+    width: 1135px;
+    height: 838.20px; 
+    text-align: center; 
+    color:rgba(124.31, 223.63, 255, 0.76); 
+    font-size: 64px; 
+    font-family:Modak; 
+    font-weight:400; 
+    word-wrap: "break-word";
+    text-decoration: none;
+      
   }
  
   #jóképüekrőlkép{
@@ -73,7 +78,8 @@ footer{
   height: calc(4vh+4vw);
 }
 
-.lablec{
-  height: 4vh !important; 
-  width: 4vw !important;
+#lablec{
+  height: 3vh !important; 
+  width: 3vw !important;
+  
 }
