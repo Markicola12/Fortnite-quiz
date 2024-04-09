@@ -10,7 +10,7 @@ body{
     margin: 0;
     padding: 0;
     background-image: linear-gradient(#47BCB5, white);
-
+    overflow: hidden;
 }
 
 #fejlec_tartalom{
@@ -18,8 +18,8 @@ body{
 }
 
 #logo{
-    height: calc(4vw + 5%); 
-    width: calc(4vw + 5%);
+    height: calc(4vw + 4vh); 
+    width: calc(4vw + 4vh);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 17px;
     border: 2px black solid;
@@ -31,7 +31,7 @@ body{
     display: inline-block;
     vertical-align: middle;
     margin-top: 2vh;
-    
+    vertical-align: middle;
 }
 
 a, a:visited, a:active, a:hover{
@@ -47,7 +47,7 @@ a, a:visited, a:active, a:hover{
 
 #fejlec_elso_elem{
     text-align: center;
-    padding-right: calc(20vw + 1%);
+    padding-right: calc(30vw + 1%);
     padding-left: 5vw;
 }
 
@@ -234,4 +234,78 @@ a, a:visited, a:active, a:hover{
     text-align: center;
     font-size: x-large;
     margin-top: calc(2vw + 2vh);
+}
+
+@media screen and (max-width: 1200px) {
+    #fejlec_elso_elem{
+        padding-right: 20vw;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    #fejlec_elso_elem{
+        padding-right: 10vw;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #logo{
+        display: flex !important;
+        order: 3 !important;
+        height: calc(6vw + 6vh); 
+        width: calc(6vw + 6vh);
+    }
+
+    .menu_gomb{
+        display: inline-block;
+        cursor: pointer;
+    }
+      
+    .csik1, .csik2, .csik3 {
+        width: 45px;
+        height: 7px;
+        background-color: white;
+        border-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+      
+    .valtozas .csik1 {
+        transform: translate(0, 13px) rotate(-45deg);
+    }
+      
+    .valtozas .csik2 {
+        opacity: 0;
+    }
+      
+    .valtozas .csik3 {
+        transform: translate(0, -13px) rotate(45deg);
+    }
+
+    #fejlec_elso_elem{
+        display: flex !important;
+        order: 2 !important;
+        padding-left: 18vw;
+        padding-right: 5vw;
+    }
+
+    #fejlec_masodik_elem{
+        display: none !important;
+    }
+    #fejlec_harmadik_elem{
+        display: none !important;
+    }
+
+    #telefon_menu{
+        display: flex !important;
+        flex-direction: row;
+        order: 1 !important;
+        padding-left: 10vw;
+        padding-top: 23px;
+    }
+
+    #fejlec_tartalom{
+        display: flex;
+    }
 }

@@ -74,3 +74,24 @@ $(document).ready(
         );
     }
 );
+
+$(document).ready(
+    function(){
+        $(".menu_gomb").click(
+            function(event){
+                $(this).addClass("valtozas")
+
+            }
+        )
+    }
+)
+
+$(document).ready(
+    function(){
+        $(".menu_gomb").dblclick(
+            function(event){
+                $(this).removeClass("valtozas")
+            }
+        )
+    }
+)
