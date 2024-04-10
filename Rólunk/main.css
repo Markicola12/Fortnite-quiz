@@ -59,27 +59,36 @@ body {
     width: 1135px;
     height: 838.20px; 
     text-align: center; 
-    color:rgba(124.31, 223.63, 255, 0.76); 
+    color:rgba(124 ,224  , 255); 
     font-size: 64px; 
     font-family:Modak; 
     font-weight:400; 
     word-wrap: "break-word";
     text-decoration: none;
-      
+    -webkit-text-stroke: black 2px;
   }
  
   #jóképüekrőlkép{
     width: 1176px; height: 1467px; border-radius: 53px; border:
   5px #8AA4FF solid
- 
   }
-footer{
-  width: 100%;
-  height: calc(4vh+4vw);
-}
 
+  #lablec > img{
+    position: relative;
+    height: calc(3vh + 3vw);
+    width: calc(3vh + 3vw);
+    margin: 4vh auto 4vh auto;
+}
+ 
 #lablec{
-  height: 3vh !important; 
-  width: 3vw !important;
-  
+    margin: auto 35vw auto 42vw;
+}
+ 
+footer{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#47BCB5, white);
+    overflow: hidden;
+    height: 15vh;
+    
 }
