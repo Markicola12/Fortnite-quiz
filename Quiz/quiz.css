@@ -31,7 +31,6 @@ body{
     display: inline-block;
     vertical-align: middle;
     margin-top: 2vh;
-    vertical-align: middle;
 }
 
 a, a:visited, a:active, a:hover{
@@ -236,11 +235,15 @@ a, a:visited, a:active, a:hover{
     margin-top: calc(2vw + 2vh);
 }
 
-.lablec > img{
+#lablec > img{
+    position: relative;
     height: calc(3vh + 3vw);
     width: calc(3vh + 3vw);
-    padding-top: 7vh;
-    padding-bottom: 7vh;
+    margin: 4vh auto 4vh auto;
+}
+
+#lablec{
+    margin: auto 35vw auto 42vw;
 }
 
 footer{
