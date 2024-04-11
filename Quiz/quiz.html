@@ -8,1130 +8,242 @@
     <link rel="icon" type="image/x-icon" href="../Főoldal/logo.jpg">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="jQuery_quiz.js"></script>
-    <scripts src="js_quiz.js"></script>
 </head>
 <body>
     <header id="fejlec">
         <div id="fejlec_tartalom">
             <div id="telefon_menu">
-                <div class="menu_gomb">
-                    <div class="csik1"></div>
-                    <div class="csik2"></div>
-                    <div class="csik3"></div>
-                </div>
+                
+                    <div class="menu_gomb" style="font-size:30px;cursor:pointer" onclick="openNav()">
+                        <div class="csik1"></div>
+                        <div class="csik2"></div>
+                        <div class="csik3"></div>
+                    </div>
+                
+            </div>
+            <div id="side_nav">
+                <a href="../Főoldal/index.html">Fő oldal</a>
+                <a href="../Rólunk/rólunk.html">Rólunk</a>
             </div>
             <img id="logo"  src="../Főoldal/logo.jpg" alt="LOGO"/>
     
             <div id="fejlec_elso_elem" ><a href="../Főoldal/index.html">Personality<br>Quiz</a></div>
             <div id="fejlec_masodik_elem" ><a href="./quiz.html">Quiz</a></div>
             <div id="fejlec_harmadik_elem" ><a href="../Rólunk/rólunk.html">Rólunk</a></div>
-          </div>    
+          </div>
     </header>
 
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan kezelni a stresszt és nyomást?</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Általában nyugodt és kiegyensúlyozott vagyok.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Általában nyugodt és kiegyensúlyozott vagyok.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan kommunikálni másokkal.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Általában optimista vagyok és pozitívan látom a dolgokat.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Szeretek új emberekkel találkozni és kapcsolatokat építeni.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Kreatív vagyok és ötletes megoldásokat találok.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Jól kezelem a változásokat az életemben.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan együttműködni másokkal.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan irányítani és vezetni másokat.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan motiválni és inspirálni másokat.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan kezelni a kudarcokat és nehézségeket.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Jól kezelem a konfliktusokat és problémákat.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan prioritásokat állítani és döntéseket hozni.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan megszervezni és koordinálni eseményeket.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan kezelni az időmet és feladataimat.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan delegálni feladatokat másoknak.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Jól kezelem az önértékelést és magabiztos vagyok.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Nyitott vagyok új élményekre és kalandokra.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Szeretek kihívásokat és célokat magam elé tűzni.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan kezelni a pénzzel kapcsolatos dolgokat.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan kezelni az érzéseimet és emocionális reakcióimat.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan kezelni az érzéseimet és emocionális reakcióimat.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan kezelni a stresszt és nyomást.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan kezelni a múltbéli traumákat vagy negatív élményeket.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan megszervezni és végrehajtani projekteket.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan kezelni a frusztrációt és csalódást.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok jól alkalmazkodni a változó körülményekhez.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok jól egyensúlyozni az önállóság és csapatjáték között.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Szeretem az életet teljes szívből megélni és kihasználni minden lehetőséget.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan határokat szabni és határokat tiszteletben tartani.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok rugalmasan alkalmazkodni változó körülményekhez.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok jó döntéseket hozni nyomás alatt.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok jó egyensúlyt tartani a munka és a szabadidő között.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok jól reagálni kritikára és visszajelzésekre.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Szeretek másoknak segíteni és támogatni őket.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan kezelni a szorongást vagy pánikot.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok jól alkalmazkodni a változásokhoz és kihívásokhoz.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok megfelelően prioritásokat állítani és koncentrálni.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan kezelni az egyensúlyt a munka és a magánélet között.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Szeretem a változatosságot és a különböző tevékenységeket.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok konstruktívan kezelni a konfliktusokat és problémákat.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok rugalmasan alkalmazkodni a változó körülményekhez.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Szeretem a kihívásokat és nehézségeket.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Szeretem megosztani másokkal a tudásomat és tapasztalataimat.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan támogatni és bátorítani másokat.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan megszervezni és tervezni a jövőmet.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Szeretem a kreatív kifejezés különböző formáit.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan kezelni a változásokat és a bizonytalanságot.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok jó időmenedzsmentet alkalmazni.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok jól reagálni stresszes helyzetekben.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan kezelni a kritikákat és visszajelzéseket.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan kezelni a kudarcokat és hibákat.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Szeretem a kihívásokat és új dolgokat tanulni.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan kezelni a múltbéli traumákat és negatív élményeket.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok jól egyensúlyozni a munka és a szabadidő között.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok jól együttműködni és csapatban dolgozni.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok jó döntéseket hozni nehezebb helyzetekben.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan kezelni a változásokat és új helyzeteket.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok jól reagálni váratlan helyzetekre és kihívásokra.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan kezelni a szorongást és stresszt.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Képes vagyok hatékonyan kezelni a változó körülményeket és kihívásokat.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
-
     <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
-        </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
+        <div><div class="valaszto_felulet"> <div class="circles"><div class="nagyon_nem"></div><div class="félig_nem"></div><div class="kicsit_nem"></div><div class="semleges"></div><div class="kicsit_igaz"></div><div class="félig_igaz"></div><div class="nagyon_igaz"></div></div></div><h3 class="kerdes">Szeretem a változatos és változatos tevékenységeket.</h3><div id="merce"><div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div><div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div></div></div>
     </div>
+    
+    <div id="submit">
+         <button id="modal_opener"><img src="./submit.jpg" alt="submit button"></button>
+    </div>
 
-    <div>
-        <div class="valaszto_felulet"> 
-            <div class="circles">
-                <div class="nagyon_nem"></div>
-                <div class="félig_nem"></div>
-                <div class="kicsit_nem"></div>
-                <div class="semleges"></div>
-                <div class="kicsit_igaz"></div>
-                <div class="félig_igaz"></div>
-                <div class="nagyon_igaz"></div>
-            </div>
+    <div id="ablak" class="modal">
+        <div class="modal-content"> 
+          <p id="modal_szoveg">Köszönjük, hogy kitöltötte a<br> tesztünket!</p>
+          <p id="eredmeny">PUMP SHOTGUN!!!</p>
+          <img src="../Főoldal/Pump shotgun.jpg" alt="pump shotgun" id="eredmeny_kep">
+          <a href="../Főoldal/index.html">
+            <button>
+                <div id="finish">
+                    <p id="finish_szoveg">Az eredményed leírása a főoldalon!</p>
+                </div>
+            </button>
+          </a>
         </div>
-        <h3 class="kerdes">Képes vagyok könnyen alkalmazkodni új helyzetekhez?</h3>
-        <div class="scale" id="nem_igaz"><p class="valasztas_szoveg">Mennyire nem <br>igaz rád</p></div>
-        <div class="scale" id="igaz"><p class="valasztas_szoveg">Mennyire igaz <br>rád</p></div>
-    </div>
+      </div>
 
     <footer>
         <div id="lablec">
@@ -1141,7 +253,26 @@
         </div>
     </footer>
 
-    
+    <script>
+        let modal = document.getElementById("ablak");
+
+        let btn = document.getElementById("modal_opener");
+
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        function openNav() {
+            document.getElementById("side_nav").style.width = "250px";
+        }
+
+    </script>
     
 </body>
 </html>
